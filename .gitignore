@@ -1,8 +1,29 @@
+# Credentials - never commit these
 kaggle.json
+*.pem
+*.key
+
+# Data (Kaggle licence: copyright-authors, not redistributable)
 *.csv
+*.tsv
+*.parquet
+oct_extract*
+2019-*
+
+# Installers and archives
 *.tar.gz
 *.tgz
-*.parquet
+*.zip
+*.jar
+
+# Logs and local evidence
 *.log
 evidence/
+metastore_db/
+derby.log
+
+# Notebook and Python noise
 .ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
