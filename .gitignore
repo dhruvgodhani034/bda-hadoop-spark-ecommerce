@@ -1,0 +1,8 @@
+kaggle.json
+*.csv
+*.tar.gz
+*.tgz
+*.parquet
+*.log
+evidence/
+.ipynb_checkpoints/
